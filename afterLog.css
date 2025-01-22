@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: #EFF3EA;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11vmin;
+}
+abbr.no-dots {
+    text-decoration: none;
+}
+#logo{
+    height: 100%;
+    width: 13%;
+    object-fit: cover;
+    object-position: left;
+    cursor: pointer;
+}
+#log{
+    height: 100%;
+    width: 101%;
+    margin-right: 100px;
+}
+#input{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inSearch{
+    padding: 7px;
+    height: 50%;
+    width: 95%;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 29, 66);
+}
+#inSearch::placeholder{
+    font-size: 16px;
+}
+#darkLig{
+    height: 100%;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+#liD{
+    transition: ease-in-out 1s;
+}
+#contact{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    font-size: medium;
+}
+#theme{
+    margin-left: 5px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+#cart{
+    height: 100%;
+    width:175px;
+    display: flex;
+    justify-content: center;
+    gap: 1.0vmin;
+    gap: 5vmin;
+    margin-left: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+#idP{
+    height: 100%;
+    width: 100px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+}
+#trend{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: weight 7000px;
+    cursor: pointer;
+    gap: 10vmin;
+}
+#fakeHeader{
+    height: 10%;
+    width: 100%;
+}
+#page1{
+    height: 90%;
+    width: 100%;
+    background-color:#EFF3EA;
+}
+#card1{
+    margin-left: 25px;
+}
+#card21{
+    margin-left: 25px;
+}
+.cardMain{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10vmin;
+}
+.card{
+    height: 350px;
+    width: 275px;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+.info{
+    height: 26%;
+    width: 100%;
+    padding: 6px 6px 6px 6px;
+    font-size: small;
+}
+.pin{
+    text-align: center;
+    margin-top: 10px;
+}
+.visit{
+    height: 25px;
+    width: 60px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(53, 138, 187);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#fet1{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color:#EFF3EA;
+}
+#conatiner{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10vmin;
+}
+#card21{
+    margin-left: 25px;
+}
+.card2{
+    height: 350px;
+    width: 275px;
+    border-radius: 10px;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+#fet2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    gap: 30vmin;
+    text-align: center;
+    background-color:#cacec6;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fetCon{
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: left;
+}
+.details{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    gap: 15px;
+}
+#ok1{
+    text-decoration: none;
+    color: black;
+}
+#ok2{
+    text-decoration: none;
+    color: black;
+}
+#ok3{
+    text-decoration: none;
+    color: black;
+}
+#ok4{
+    text-decoration: none;
+    color: black;
+}
+#ok5{
+    text-decoration: none;
+    color: black;
+}
+#LGX{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+.imgs{
+    height: 200px;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    object-fit: cover;
+}
+#img24{
+    height: 200px;
+    width: 200px;
+    margin-top: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    object-fit: cover;
+}
+.info{
+    text-align: center;
+}

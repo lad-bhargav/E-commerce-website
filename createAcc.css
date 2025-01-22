@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+body{
+    height: 100%;
+    width: 100%;
+    /*background-image: url("https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75");*/
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;;
+    align-items: center;
+}
+#card{
+    /*z-index: 20px;
+    box-shadow: 2px 2px 2px black;*/
+    height: 320px;
+    width: 280px;
+    /*background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);*/
+    background-color: #e0e6db;
+    border:  1px solid black;
+    text-align: center;
+    margin-top: 118px;
+    /*background: transparent;*/
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+.ac{
+    margin-top: 30px;
+    height: 25px;
+    width: 210px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    background: none;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.ac::placeholder{
+    color: rgb(0, 0, 0);
+}
+.create{
+    margin-top: 22px;
+    height: 28px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(22, 0, 73);
+    color: rgb(0, 0, 102);
+    cursor: pointer;
+    background:none;
+}
+#hd{
+    margin-top: 7px;
+}
+#hadAcc{
+    text-decoration: none;
+    border: none;
+    color: rgb(22, 0, 73);
+    margin-top: 20px;
+}
+#hadAcc:hover{
+    text-decoration: underline;
+}
