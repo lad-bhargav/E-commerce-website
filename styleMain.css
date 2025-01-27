@@ -22,16 +22,16 @@ body{
     align-items: center;
 }
 #loginslide{
-     height: 320px;
-     width: 280px;
-     background-color: transparent;
-     color: #000000;
-     background-color: #e0e6db;
-     margin-top: 118px;
-     border: 1px solid rgb(0, 0, 0);
-     border-radius: 15px;
-     padding: 30px 30px;
-     /*backdrop-filter: blur(5px);*/
+    height: 320px;
+    width: 280px;
+    background-color: transparent;
+    color: #000000;
+    background-color: #e0e6db;
+    margin-top: 118px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 30px 30px;
+    /*backdrop-filter: blur(5px);*/
 }
 #ff{
     color: rgb(22, 0, 73);

@@ -4,7 +4,10 @@ let theme = document.querySelector("#theme");
 let main = document.querySelector("#mainProd");
 let links = document.querySelector("#links");
 let toPurchase = document.querySelector("#b1");
+
+//export
 let addCart = document.querySelector("#b2");
+
 
 //darkmode
 let mode = "light";
@@ -59,5 +62,16 @@ theme.addEventListener("click", function () {
 
   //for cart
   addCart.addEventListener("click",()=>{
-    alert("Added to cart");
+    window.location.href = "myCart.html";
   });
+
+
+  
+  document.addEventListener("DOMContentLoaded",()=>{
+    const referrer = document.referrer;
+    if(referrer.includes("myCart.html")){
+        if(addCart){
+            addCart.style.display = "none";
+        }
+    }
+  })

@@ -13,6 +13,7 @@ let darkLig = document.querySelector("#liD");
 let theme = document.querySelector("#theme"); 
 let page1 = document.querySelector("#page1");
 let page2 = document.querySelector("#page2");
+let carthd = document.querySelector("#cartA");
 
 //load-timeout
 logo.addEventListener("click", () => {
@@ -30,8 +31,7 @@ darkLig.addEventListener("click", () => {
         page1.style.backgroundColor = "rgb(15 23 42)";
         page2.style.backgroundColor = "rgb(15 23 42)";
         pg2Fet.style.backgroundColor = "rgb(30, 41, 59)";
-        //card1.style.backgroundColor = "#EFF3EA";
-        //card2.style.backgroundColor = "#EFF3EA";
+        carthd.style.color = "white";
         ok1.style.color = "white";
         ok2.style.color = "white";
         ok3.style.color = "white";
@@ -50,6 +50,7 @@ darkLig.addEventListener("click", () => {
         pg2Fet.style.backgroundColor = "#cacec6";
         card1.style.backgroundColor = "white";
         card2.style.backgroundColor = "white";
+        carthd.style.color = "black";
         ok1.style.color = "black";
         ok2.style.color = "black";
         ok3.style.color = "black";
@@ -70,8 +71,7 @@ theme.addEventListener("click", function () {
         page1.style.backgroundColor = "rgb(15 23 42)";
         page2.style.backgroundColor = "rgb(15 23 42)";
         pg2Fet.style.backgroundColor = "rgb(30, 41, 59)";
-        //card1.style.backgroundColor = "#EFF3EA";
-        //card2.style.backgroundColor = "#EFF3EA";
+        carthd.style.color = "white";
         ok1.style.color = "white";
         ok2.style.color = "white";
         ok3.style.color = "white";
@@ -90,6 +90,7 @@ theme.addEventListener("click", function () {
         pg2Fet.style.backgroundColor = "#cacec6";
         card1.style.backgroundColor = "white";
         card2.style.backgroundColor = "white";
+        carthd.style.color = "black";
         ok1.style.color = "black";
         ok2.style.color = "black";
         ok3.style.color = "black";

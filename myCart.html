@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myCart</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="myCart.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo"><a href="afterLog.html"><img src="logo.png" alt="" id="log"></a></div>
+            <div id="input">
+                <input type="text" placeholder="Search you want...." id="inSearch" list="opts">
+                <datalist class="opts">
+                    <option value="Phones"></option>
+                    <option value="TV"></option>
+                    <option value="Telephone"></option>
+                    <option value="Fridge"></option>
+                </datalist>
+            </div>
+            <div id="darkLig">
+                <i class="ri-contrast-2-line" id="liD"></i>
+                <p id="theme">Theme</p>
+            </div>
+            <div id="contact">
+                <abbr title="contact-us" class="no-dots"><h4 class="he">contact us</h4></abbr>
+            </div>
+            <div id="trend">
+                <abbr title="Trending" class="no-dots"><p>Trending</p></abbr>
+                <abbr title="Vintage shopping" class="no-dots"><p>vintages</p></abbr>
+            </div>
+            <div id="cart">
+                <abbr title="Mycart" class="no-dots">
+                    <a href="myCart.html" class="no-dots" id="cartA">
+                    <i class="ri-luggage-cart-line"></i>
+                    <abbr title="Mycart" class="no-dots"><h4 id="h">MyCart</h4></abbr>
+                </a>
+                </abbr>
+                <div id="idP">
+                    <abbr title="profile" class="no-dots">
+                        <div id="circle">
+                    </div>
+                </abbr>
+                </div>
+            </div>
+        </div>
+        <div id="fakeHeader"></div>
+        <div id="page1">
+            <div id="carts">
+            <div class="cardCart" id="card1b">
+                <div id="prodImg1"></div>
+                <div class="heading"><h3>iPhone 14</h3></div>
+                <h5 id="para1"></h5>
+                <div class="bt">
+                    <button class="rt">Remove</button>
+                    <a href="buyI14.html">
+                        <button class="placeOrd">Placeorder</button>
+                    </a>
+                </div>
+            </div>
+            <div class="cardCart" id="card2b">
+                <div id="prodImg2"></div>
+                <div class="heading"><h3>iPhone 15</h3></div>
+                <h5 id="para2"></h5>
+                <div class="bt">
+                    <button class="rt">Remove</button>
+                    <a href="buyI15.html">
+                        <button class="placeOrd">Placeorder</button>
+                    </a>
+                </div>
+            </div>
+            <div class="cardCart" id="card3b">
+                <div id="prodImg3"></div>
+                <div class="heading"><h3>iPhone 16</h3></div>
+                <h5 id="para3"></h5>
+                <div class="bt">
+                    <button class="rt">Remove</button>
+                    <a href="buyI16.html">
+                        <button class="placeOrd">Placeorder</button>
+                    </a>
+                </div>
+            </div>
+            <div class="cardCart" id="card4b">
+                <div id="prodImg4"></div>
+                <div class="heading"><h3>iPhone 16 Pro</h3></div>
+                <h5 id="para4"></h5>
+                <div class="bt">
+                    <button class="rt">Remove</button>
+                    <a href="buyI16pro.html">
+                        <button class="placeOrd">Placeorder</button>
+                    </a>
+                </div>
+            </div>
+            </div>
+            <!--<p id="para"></p>-->
+        </div>
+        <script src="myCart.js"></script>
+</body>
+</html>

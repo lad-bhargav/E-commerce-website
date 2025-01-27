@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
-
 //console.log(document.referrer);
 
 //submit
@@ -51,7 +50,7 @@ let subCard = document.getElementById("subCard");
             }
     });*/
 
-    const subt = document.getElementById("subt");
+const subt = document.getElementById("subt");
 const dets = document.querySelectorAll(".dets");
 const prodpur = document.querySelector("#prodpur");
 let subCard = document.getElementById("subCard");
@@ -64,11 +63,11 @@ function displayBlock() {
     }
 }
 
+let subh5 = document.querySelector("#subh5");
+
 subt.addEventListener("click", () => {
-    // Check if all `dets` fields have non-empty values
     let allFieldsFilled = Array.from(dets).every(input => input.value.trim() !== "");
 
-    // Check if `prodpur` is empty
     let prodpurEmpty = prodpur && prodpur.value.trim() === "";
 
     if (allFieldsFilled && prodpurEmpty) {
@@ -77,6 +76,7 @@ subt.addEventListener("click", () => {
         subCard.style.display = "flex";
         subCard.style.marginTop = "150px";
         subCard.style.marginLeft = "475px";
+        subh6.style.marginTop = "20px";
     } else {
         alert("Fill all information");
     }
