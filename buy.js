@@ -4,13 +4,13 @@ let theme = document.querySelector("#theme");
 let main = document.querySelector("#mainProd");
 let links = document.querySelector("#links");
 let toPurchase = document.querySelector("#b1");
-
+let carthd = document.querySelector("#cartA");
 //export
 let addCart = document.querySelector("#b2");
 
 
 //darkmode
-let mode = "light";
+let mode = "dark";
 darkLig.addEventListener("click", () => {
     if (mode === "light" && darkLig.classList.contains("ri-contrast-2-line")) {
         main.style.backgroundColor = "rgb(15 23 42)";
@@ -21,6 +21,7 @@ darkLig.addEventListener("click", () => {
         header.style.color = "white";
         theme.innerText = "Dark";
         darkLig.className = "ri-moon-fill";
+        carthd.style.color = "white";
     } else {
         header.style.backgroundColor = "#EFF3EA"; 
         main.style.backgroundColor = "#EFF3EA";
@@ -30,6 +31,7 @@ darkLig.addEventListener("click", () => {
         mode = "light";
         theme.innerText = "Light";
         darkLig.className = "ri-contrast-2-line";
+        carthd.style.color = "black";
     }
 });
 
@@ -43,6 +45,7 @@ theme.addEventListener("click", function () {
         header.style.color = "white";
         theme.innerText = "Dark";
         darkLig.className = "ri-moon-fill";
+        carthd.style.color = "white";
     } else {
         header.style.backgroundColor = "#EFF3EA"; 
         main.style.backgroundColor = "#EFF3EA";
@@ -52,6 +55,7 @@ theme.addEventListener("click", function () {
         mode = "light";
         theme.innerText = "Light";
         darkLig.className = "ri-contrast-2-line";
+        carthd.style.color = "black";
     }
   })
 
@@ -59,13 +63,6 @@ theme.addEventListener("click", function () {
   toPurchase.addEventListener("click",()=>{
     window.location.href = "buyNow.html";
   });
-
-  //for cart
-  addCart.addEventListener("click",()=>{
-    window.location.href = "myCart.html";
-  });
-
-
   
   document.addEventListener("DOMContentLoaded",()=>{
     const referrer = document.referrer;
@@ -75,3 +72,9 @@ theme.addEventListener("click", function () {
         }
     }
   })
+
+
+  addCart.addEventListener("click", function () {
+    localStorage.setItem("buttonClicked", "true"); // Store state
+    window.location.href = "myCart.html"; // Redirect to the other page
+  });

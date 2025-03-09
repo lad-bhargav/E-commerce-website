@@ -14,12 +14,13 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(15 23 42);
 }
 #header{
     height: 10%;
     width: 100%;
-    background-color: #EFF3EA;
+    background-color:rgb(15 23 42);
+    color: white;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -30,7 +31,7 @@ abbr.no-dots {
     text-decoration: none;
 }
 #cartA{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 #logo{
@@ -128,8 +129,8 @@ abbr.no-dots {
 #page1{
     height: 90%;
     width: 100%;
-    background-color:#EFF3EA;
-}
+    background-color:rgb(15 23 42);
+} 
 #card1{
     margin-left: 25px;
 }
@@ -178,12 +179,13 @@ abbr.no-dots {
     height: 10%;
     width: 100%;
     text-align: center;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #page2{
     height: 90%;
     width: 100%;
-    background-color:#EFF3EA;
+    background-color:rgb(15 23 42);
 }
 #conatiner{
     height: 70%;
@@ -203,13 +205,15 @@ abbr.no-dots {
     background-color: white;
     /*border: 1px solid black;*/
 }
+
 #fet2{
     height: 30%;
     width: 100%;
     display: flex;
     gap: 30vmin;
     text-align: center;
-    background-color:#cacec6;
+    background-color:rgb(30, 41, 59);
+    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 .fetCon{
@@ -227,23 +231,23 @@ abbr.no-dots {
 }
 #ok1{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #ok2{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #ok3{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #ok4{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #ok5{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #LGX{
     display: flex;

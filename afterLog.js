@@ -24,7 +24,7 @@ logo.addEventListener("click", () => {
 
 //darkmode
 
-let mode = "light";
+let mode = "dark";
 darkLig.addEventListener("click", () => {
     if (mode === "light" && darkLig.classList.contains("ri-contrast-2-line")) {
         header.style.backgroundColor = "rgb(15 23 42)";
@@ -105,8 +105,34 @@ theme.addEventListener("click", function () {
     }
   })
 
-  //SearchApis
+  //search
+  var products = [
+    { name: "iPhone14" },
+    { name: "iPhone15" },
+    { name: "iPhone16" },
+    { name: "iPhone16 Pro" },
+    { name: "Smart TV" },
+    { name: "Anarc" },
+    { name: "Refrigerators" },
+    { name: "Galaxy S24 Ultra" },
+];
 
+let searchInput = document.querySelector("#inSearch");
+let dataList = document.querySelector("#datalist");
 
+function searchFunctionality() {
+    searchInput.addEventListener("input", () => {
+        let inputValue = searchInput.value.toLowerCase();
+        dataList.innerHTML = ""; 
+        let filterArray = products.filter(obj =>
+            obj.name.toLowerCase().startsWith(inputValue)
+        );
+        filterArray.forEach(obj => {
+            let option = document.createElement("option");
+            option.value = obj.name;
+            dataList.appendChild(option);
+        });
+    });
+}
 
-
+searchFunctionality();

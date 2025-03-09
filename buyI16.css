@@ -14,14 +14,16 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: #EFF3EA;
+    background-color: rgb(15 23 42);
+    color: white;
 }
 #header{
     height: 10%;
     width: 100%;
-    background-color: #EFF3EA;
+    background-color: rgb(15 23 42);
     position: fixed;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     gap: 11vmin;
@@ -223,6 +225,6 @@ a.no-dots:hover{
     text-decoration: underline;
 }
 #cartA{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
