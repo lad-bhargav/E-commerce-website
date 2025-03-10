@@ -2,7 +2,7 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "/afterLog.html",
+        "destination": "/indexMain.html",
         "permanent": true
       }
     ]
