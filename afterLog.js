@@ -14,7 +14,8 @@ let theme = document.querySelector("#theme");
 let page1 = document.querySelector("#page1");
 let page2 = document.querySelector("#page2");
 let carthd = document.querySelector("#cartA");
-
+let cId = document.querySelector("#cId");
+let icon = document.querySelector(".ri-luggage-cart-line");
 //load-timeout
 logo.addEventListener("click", () => {
     setTimeout(() => {
@@ -32,6 +33,8 @@ darkLig.addEventListener("click", () => {
         page2.style.backgroundColor = "rgb(15 23 42)";
         pg2Fet.style.backgroundColor = "rgb(30, 41, 59)";
         carthd.style.color = "white";
+        cId.style.color = "white";
+        icon.style.color = "white";
         ok1.style.color = "white";
         ok2.style.color = "white";
         ok3.style.color = "white";
@@ -51,6 +54,8 @@ darkLig.addEventListener("click", () => {
         card1.style.backgroundColor = "white";
         card2.style.backgroundColor = "white";
         carthd.style.color = "black";
+        icon.style.color = "black";
+        cId.style.color = "black";
         ok1.style.color = "black";
         ok2.style.color = "black";
         ok3.style.color = "black";
@@ -73,6 +78,8 @@ theme.addEventListener("click", function () {
         pg2Fet.style.backgroundColor = "rgb(30, 41, 59)";
         carthd.style.color = "white";
         ok1.style.color = "white";
+        cId.style.color = "white";
+        icon.style.color = "white";
         ok2.style.color = "white";
         ok3.style.color = "white";
         ok4.style.color = "white";
@@ -91,7 +98,9 @@ theme.addEventListener("click", function () {
         card1.style.backgroundColor = "white";
         card2.style.backgroundColor = "white";
         carthd.style.color = "black";
+        cId.style.color = "black";
         ok1.style.color = "black";
+        icon.style.color = "black";
         ok2.style.color = "black";
         ok3.style.color = "black";
         ok4.style.color = "black";
